@@ -1,3 +1,4 @@
+#terraform plan -var-file="dev.tfvars"
 provider "aws" {
     region = var.aws_region
 }
